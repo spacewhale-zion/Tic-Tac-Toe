@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.navbar{
+    height: 60px;
+background-color:rgb(37, 9, 37) ;
+color:white;
+font-size: 2rem;
+font-family:  sans-serif;
+
+
+}
+.navbar span{
+position: relative;    
+top: 10px;
+}
+.gamecontainer{
+    /* border:1px solid red; */
+    
+  justify-content: center;
+    display: flex;
+    margin: 50px;
+    height:700px;
+
+}
+.container{
+    /* border:1px solid red; */
+    display: grid;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows:repeat(3,10vw) ;
+    left: -105px;
+    top: 100px;
+}
+
+.text{
+    vertical-align: middle;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: rgb(212, 34, 34);
+}
+.line{
+    position: absolute;
+    background-color: rgb(229, 170, 180);
+    height: 5px;
+    
+}
+.box{
+    border: 2px solid rgb(23, 234, 227); 
+   font-size: 4rem;
+ 
+}
+.box :hover{
+    cursor: pointer;
+    background-color: pink;
+
+}
+.bt{
+    border-top: 0px;
+}
+.bl{
+    border-left: 0px;
+}
+.br{
+    border-right: 0px;
+}
+.bd{
+    border-bottom: 0px;
+}
+.gameInfo{
+    /* border:1px solid red; */
+    position: relative;
+    top: 100px;
+
+    font-family: sans-serif;   
+}
+.gameInfo h1{
+    font-size: 2.5rem;
+}
+.gameInfo span{
+    position: relative;
+    top: 20px;
+}
+.btn{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: 2px solid rgb(205, 36, 205);
+    background-color: rgb(169, 89, 243);
+    cursor: pointer;
+}
+.imgbox img{
+    width:0px;
+    transition: width 1000ms ease-in-out;
+    margin:35px
+}
